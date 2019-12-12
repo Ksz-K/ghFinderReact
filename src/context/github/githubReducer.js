@@ -22,7 +22,7 @@ export default (state, action) => {
     case CLEAR_USERS:
       return {
         ...state,
-        user: action.payload,
+        users: [],
         loading: false
       };
 
